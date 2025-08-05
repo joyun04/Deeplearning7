@@ -2,6 +2,7 @@ from sklearn.metrics import confusion_matrix #혼동 행렬 생성
 from sklearn.metrics import classification_report # 성능평가 결과 확인
 
 # 안녕윤아 어떻게 바뀌었는지 함께 확인해볼까?
+print("안녕윤아:")
 # data_traget = [1, 0, 1, 0, 1, 1, 0, 0, 2, 3, 2, 3, 3, 2] # 실제 정답 데이터
 # model_pred =  [1, 1, 1, 0, 1, 0, 1 ,0, 2, 1, 0, 3, 3, 1] # 모델이 예측한 값
 #
